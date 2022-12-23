@@ -1,4 +1,4 @@
-# Julia-Lotta Tinglöf - portfolio
+# Julia-Lotta Tinglöf
 
 ## Available Scripts
 
