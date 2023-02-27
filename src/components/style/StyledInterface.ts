@@ -7,9 +7,11 @@ export interface IStylingProps {
   position?: string;
   background?: string;
   color?: string;
+  minHeight?: string;
   height?: string;
   width?: string;
   tabletWidth?: string;
+  laptopWidth?: string;
   margin?: string;
   padding?: string;
   fontSize?: string;

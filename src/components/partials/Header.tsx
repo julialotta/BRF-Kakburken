@@ -18,7 +18,7 @@ function Header() {
         >
           <FlexDiv margin='0'>
             <StyledNavLink to='/' color='black'>
-              <StyledH1 fontSize='27px'>BRF KAKBURKEN</StyledH1>
+              <StyledH1>BRF KAKBURKEN</StyledH1>
             </StyledNavLink>
           </FlexDiv>
           <FlexDiv margin='0'>

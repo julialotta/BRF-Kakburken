@@ -12,6 +12,7 @@ export const FlexDiv = styled.div`
   background-color: ${(props: IStylingProps) => props.background || "none"};
   width: ${(props: IStylingProps) => props.width || "100%"};
   height: ${(props: IStylingProps) => props.height || "100%"};
+  min-height: ${(props: IStylingProps) => props.minHeight || "0"};
   gap: ${(props: IStylingProps) => props.gap || "0"};
   margin: ${(props: IStylingProps) => props.margin || "0"};
   padding: ${(props: IStylingProps) => props.padding || "0"};

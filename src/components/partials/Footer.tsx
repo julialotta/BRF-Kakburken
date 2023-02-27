@@ -6,12 +6,12 @@ function Footer() {
   return (
     <FlexDiv
       background={colors.DarkGreen}
-      height='3em'
+      height='5rem'
       width='100vw'
       position='fixed'
       bottom='0'
     >
-      <StyledP color={colors.White} fontSize='10px'>
+      <StyledP color={colors.White} fontSize='1.3rem'>
         &copy; 2022 Brf Kakburken
       </StyledP>
     </FlexDiv>

@@ -21,12 +21,15 @@ export const Layout = () => {
         exit='exit'
         transition={{ duration: 0.6 }}
       >
-        <FlexDiv padding='0 0 3em 0'>
+        <FlexDiv padding='0 0 3rem 0' justify='start'>
           <FlexDiv
+            height='min-content'
+            minHeight='70vh'
             background={colors.LightGreen}
             dir='column'
             margin='30px'
-            padding='40px'
+            padding='4rem'
+            justify='start'
           >
             <Outlet />
           </FlexDiv>

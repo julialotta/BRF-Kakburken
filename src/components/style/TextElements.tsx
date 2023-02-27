@@ -28,7 +28,6 @@ export const StyledLink = styled.a`
   color: ${(props: IStylingProps) => props.color || "black"};
   font-size: ${(props: IStylingProps) => props.fontSize || "default"};
 
-  text-decoration: none;
   :hover {
     color: ${colors.White};
   }
@@ -36,7 +35,7 @@ export const StyledLink = styled.a`
 
 export const StyledDLLink = styled.a`
   color: ${(props: IStylingProps) => props.color || "black"};
-  font-size: ${(props: IStylingProps) => props.fontSize || "default"};
+  font-size: ${(props: IStylingProps) => props.fontSize || "2rem"};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,6 +47,10 @@ export const StyledDLLink = styled.a`
 `;
 
 export const StyledH1 = styled.h1`
-  font-size: ${(props: IStylingProps) => props.fontSize || "default"};
+  font-size: ${(props: IStylingProps) => props.fontSize || "4rem"};
+  color: black;
+`;
+export const StyledH4 = styled.h4`
+  font-size: ${(props: IStylingProps) => props.fontSize || "3rem"};
   color: black;
 `;
