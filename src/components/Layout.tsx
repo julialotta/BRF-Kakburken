@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { AppWrapper, FlexDiv } from "./style/Wrappers";
 import { colors } from "./style/Mixins";
 import Footer from "./partials/Footer";
+import { SimpleMap } from "./map";
 
 export const Layout = () => {
   const animations = {
@@ -34,6 +35,7 @@ export const Layout = () => {
             <Outlet />
           </FlexDiv>
         </FlexDiv>
+        <SimpleMap />
       </motion.main>
       <Footer />
     </AppWrapper>
