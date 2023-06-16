@@ -12,7 +12,7 @@ function Footer() {
       bottom='0'
     >
       <StyledP color={colors.White} fontSize='1.3rem'>
-        &copy; 2022 Brf Kakburken
+        &copy; 2023 Brf Kakburken
       </StyledP>
     </FlexDiv>
   );

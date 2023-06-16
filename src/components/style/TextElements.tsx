@@ -41,6 +41,7 @@ export const StyledDLLink = styled.a`
   justify-content: center;
   gap: 10px;
   text-decoration: none;
+  margin: ${(props: IStylingProps) => props.margin || 0};
   :hover {
     color: ${colors.White};
   }

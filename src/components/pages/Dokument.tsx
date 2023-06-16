@@ -52,6 +52,14 @@ export const Dokument = () => {
         </StyledDLLink>
         <StyledH4>Årsredovisningar</StyledH4>
         <StyledDLLink
+          href='https://brfkakburken.se//AR2022BrfKakburken.pdf'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          2022
+          <BsDownload />
+        </StyledDLLink>
+        <StyledDLLink
           href='https://brfkakburken.se//AR2021BrfKakburken.pdf'
           target='_blank'
           rel='noopener noreferrer'
