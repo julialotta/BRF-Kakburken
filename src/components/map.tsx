@@ -43,7 +43,7 @@ const InfoComponent = () => (
           </StyledP>
         </FlexDiv>
         <FlexDiv justify='left'>
-          <StyledP fontSize='14px'>brfkakburken [at] hotmail.com</StyledP>
+          <StyledP fontSize='14px'>kburken [at] hotmail.com</StyledP>
         </FlexDiv>
       </FlexDiv>
     </FlexDiv>
