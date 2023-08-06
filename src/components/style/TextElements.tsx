@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { IStylingProps } from "./StyledInterface";
 import { NavLink } from "react-router-dom";
-import { colors } from "./Mixins";
+import { colors, device } from "./Mixins";
 
 export const StyledNavLink = styled(NavLink)`
   color: ${(props: IStylingProps) => props.color || colors.DarkGreen};
@@ -35,20 +35,24 @@ export const StyledLink = styled.a`
 
 export const StyledDLLink = styled.a`
   color: ${(props: IStylingProps) => props.color || "black"};
-  font-size: ${(props: IStylingProps) => props.fontSize || "2rem"};
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   text-decoration: none;
+  font-size: 1.4rem;
+
   margin: ${(props: IStylingProps) => props.margin || 0};
   :hover {
     color: ${colors.White};
   }
+  @media ${device.tablet} {
+    font-size: ${(props: IStylingProps) => props.fontSize || "2rem"};
+  }
 `;
 
 export const StyledH1 = styled.h1`
-  font-size: ${(props: IStylingProps) => props.fontSize || "4rem"};
+  font-size: ${(props: IStylingProps) => props.fontSize || "3.5rem"};
   color: black;
 `;
 export const StyledH4 = styled.h4`

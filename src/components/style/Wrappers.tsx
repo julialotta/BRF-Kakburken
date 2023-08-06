@@ -22,6 +22,7 @@ export const FlexDiv = styled.div`
   bottom: ${(props: IStylingProps) => props.bottom || "x"};
   flex-wrap: ${(props: IStylingProps) => props.wrap || "nowrap"};
   z-index: ${(props: IStylingProps) => props.z || "auto"};
+
   @media ${device.tablet} {
     width: ${(props: IStylingProps) => props.tabletWidth || props.width};
     align-items: ${(props: IStylingProps) => props.tabletAlign || "center"};

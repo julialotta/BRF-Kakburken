@@ -10,6 +10,15 @@ export const Home = () => {
       <GlobalStyle />
       <StyledH4>Välkomna till BRF Kakburken</StyledH4>
       <StyledDLLink
+        href='https://brfkakburken.se//Protokoll270623.pdf'
+        target='_blank'
+        rel='noopener noreferrer'
+        margin='10px 0 30px 0'
+      >
+        Årsstämma 2023
+        <BsDownload />
+      </StyledDLLink>
+      <StyledDLLink
         href='https://brfkakburken.se//AR2022BrfKakburken.pdf'
         target='_blank'
         rel='noopener noreferrer'
@@ -19,7 +28,7 @@ export const Home = () => {
         <BsDownload />
       </StyledDLLink>
       <StyledImg
-        width='400px'
+        width='200px'
         tabletWidth='650px'
         laptopWidth='900px'
         src={fasadRitning}

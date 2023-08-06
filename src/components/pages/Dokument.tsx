@@ -8,7 +8,7 @@ export const Dokument = () => {
     <>
       <GlobalStyle />
       <StyledH4>Dokument</StyledH4>
-      <FlexDiv dir='column' gap='15px' align='start' tabletAlign='center'>
+      <FlexDiv dir='column' gap='15px' align='start' textAlign='start'>
         <StyledDLLink
           href='https://brfkakburken.se/Andrahandsuthyrning.pdf'
           target='_blank'
@@ -30,7 +30,7 @@ export const Dokument = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          Information till nya medlemmar
+          Information - nya medlemmar
           <BsDownload />
         </StyledDLLink>
         <StyledDLLink
@@ -38,7 +38,7 @@ export const Dokument = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          Brf Kakburken - Stadgar
+          Stadgar
           <BsDownload />
         </StyledDLLink>
 
@@ -47,7 +47,7 @@ export const Dokument = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          Brf Kakburken - Vision och strategi
+          Vision & strategi
           <BsDownload />
         </StyledDLLink>
         <StyledH4>Årsredovisningar</StyledH4>
@@ -106,6 +106,16 @@ export const Dokument = () => {
           rel='noopener noreferrer'
         >
           2016
+          <BsDownload />
+        </StyledDLLink>
+        <StyledH4>Protokoll</StyledH4>
+        <StyledDLLink
+          href='https://brfkakburken.se//Protokoll270623.pdf'
+          target='_blank'
+          rel='noopener noreferrer'
+          margin='10px 0 30px 0'
+        >
+          Årsstämma 2023
           <BsDownload />
         </StyledDLLink>
       </FlexDiv>
