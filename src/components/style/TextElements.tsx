@@ -40,7 +40,7 @@ export const StyledDLLink = styled.a`
   justify-content: center;
   gap: 10px;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: ${(props: IStylingProps) => props.fontSize || "1.4rem"};
 
   margin: ${(props: IStylingProps) => props.margin || 0};
   :hover {
@@ -56,6 +56,7 @@ export const StyledH1 = styled.h1`
   color: black;
 `;
 export const StyledH4 = styled.h4`
+  margin: ${(props: IStylingProps) => props.margin || "1rem 0"};
   font-size: ${(props: IStylingProps) => props.fontSize || "3rem"};
   color: black;
 `;

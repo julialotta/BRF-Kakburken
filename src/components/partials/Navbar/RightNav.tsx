@@ -40,40 +40,40 @@ const RightNav = (props: IProps) => {
   return (
     <Ul ultransform={props.open ? "translateX(0)" : "translateX(100%)"}>
       <StyledNavLink
-        to='/'
-        active='white'
-        color='black'
-        fontSize='19px'
-        padding='0 30px 10px 30px'
-      >
+        to="/"
+        active="white"
+        hoverColor="white"
+        color="black"
+        fontSize="19px"
+        padding="0 30px 10px 30px">
         Hem
       </StyledNavLink>
 
       <StyledNavLink
-        active='white'
-        color='black'
-        to='/nyinflyttad'
-        fontSize='19px'
-        padding='0 30px 10px 30px'
-      >
+        active="white"
+        hoverColor="white"
+        color="black"
+        to="/nyinflyttad"
+        fontSize="19px"
+        padding="0 30px 10px 30px">
         Nyinflyttad
       </StyledNavLink>
       <StyledNavLink
-        active='white'
-        color='black'
-        to='/Dokument'
-        fontSize='19px'
-        padding='0 30px 10px 30px'
-      >
+        active="white"
+        hoverColor="white"
+        color="black"
+        to="/Dokument"
+        fontSize="19px"
+        padding="0 30px 10px 30px">
         Dokument
       </StyledNavLink>
       <StyledNavLink
-        active='white'
-        color='black'
-        to='/Kontakt'
-        fontSize='19px'
-        padding='0 30px 10px 30px'
-      >
+        active="white"
+        hoverColor="white"
+        color="black"
+        to="/Kontakt"
+        fontSize="19px"
+        padding="0 30px 10px 30px">
         Kontakt
       </StyledNavLink>
     </Ul>

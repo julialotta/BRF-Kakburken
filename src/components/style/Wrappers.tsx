@@ -22,8 +22,10 @@ export const FlexDiv = styled.div`
   bottom: ${(props: IStylingProps) => props.bottom || "x"};
   flex-wrap: ${(props: IStylingProps) => props.wrap || "nowrap"};
   z-index: ${(props: IStylingProps) => props.z || "auto"};
+  border: ${(props: IStylingProps) => props.border || "none"};
 
   @media ${device.tablet} {
+    flex-direction: ${(props: IStylingProps) => props.tabletDir || props.dir};
     width: ${(props: IStylingProps) => props.tabletWidth || props.width};
     align-items: ${(props: IStylingProps) => props.tabletAlign || "center"};
     flex-wrap: ${(props: IStylingProps) => props.tabletWrap || "nowrap"};

@@ -1,4 +1,6 @@
 export interface IStylingProps {
+  display?: string;
+  displayTablet?: string;
   dir?: string;
   align?: string;
   textAlign?: string;
@@ -23,6 +25,7 @@ export interface IStylingProps {
   bottom?: string;
   active?: string;
   tabletWrap?: string;
+  tabletDir?: string;
   transform1stchild?: string;
   transform2ndchild?: string;
   opacity2ndchild?: string;
@@ -30,4 +33,5 @@ export interface IStylingProps {
   hoverColor?: string;
   ultransform?: string;
   z?: string;
+  border?: string;
 }

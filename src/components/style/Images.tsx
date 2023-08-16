@@ -8,8 +8,10 @@ export const StyledImg = styled.img`
   height: ${(props: IStylingProps) => props.height || ""};
   margin: ${(props: IStylingProps) => props.margin || "0"};
   padding: ${(props: IStylingProps) => props.padding || "0"};
+  display: ${(props: IStylingProps) => props.display || "block"};
 
   @media ${device.tablet} {
+    display: ${(props: IStylingProps) => props.displayTablet || "block"};
     width: ${(props: IStylingProps) => props.tabletWidth || props.width};
   }
   @media ${device.laptop} {
