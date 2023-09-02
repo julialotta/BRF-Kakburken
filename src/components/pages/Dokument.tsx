@@ -10,6 +10,13 @@ export const Dokument = () => {
       <StyledH4>Dokument</StyledH4>
       <FlexDiv dir="column" gap="15px" align="start" textAlign="start">
         <StyledDLLink
+          href="https://brfkakburken.se/tvattstugan.pdf"
+          target="_blank"
+          rel="noopener noreferrer">
+          Information Tvättstugan
+          <BsDownload />
+        </StyledDLLink>
+        <StyledDLLink
           href="https://brfkakburken.se/Parkeringspolicy.pdf"
           target="_blank"
           rel="noopener noreferrer">

@@ -4,7 +4,7 @@ import fasadRitning from "../../assets/Fasadritning.png";
 import fasadRitning2 from "../../assets/Fasadritning2.png";
 import { StyledDLLink, StyledH4, StyledP } from "../style/TextElements";
 import { BsDownload } from "react-icons/bs";
-import { FlexDiv } from "../style/Wrappers";
+import { FlexDiv, StyledHr } from "../style/Wrappers";
 
 export const Home = () => {
   return (
@@ -26,7 +26,6 @@ export const Home = () => {
               src={fasadRitning}
               alt="Drefviken"
             />
-            {}
             <StyledImg
               width="100%"
               tabletWidth="100%"
@@ -48,6 +47,45 @@ export const Home = () => {
           textAlign="start">
           <StyledH4>Nyheter</StyledH4>
           <StyledP fontSize="1.3rem">
+            Sep 1, 2023
+            <br />
+            Vid bokning av tvättid via webbsidan:
+            <br />
+            Surfa till
+            <a href="http://kakburken.ddns.net/">
+              {" "}
+              http://kakburken.ddns.net/{" "}
+            </a>
+            med valfri webbläsare. Första gången du loggar in använd följande
+            uppgifter: <br />
+            Användarnamn: Passerbrickans AVM-nummer (hittas på baksidan)  {" "}
+            <br />
+            Lösenord: Lägenhetsnummer <br />
+            <br />
+            Väl inne kan du ändra dina inloggningsuppgifter under
+            “Inställningar” till e-postadress och eget lösenord. Skulle du
+            glömma bort dina nya inloggningsuppgifter, kan du alltid använda dig
+            av AVM-numret tillsammans med lägenhetsnummer. <br /> <br /> Exempel
+            på hur du klurar ut ditt lägenhetsnummer:
+            <br />
+            1921 <br />
+            De två första siffrorna är portnummer, i det här fallet 19 (om port
+            9 är det 09) Den tredje siffran är våning, i det här fallet 2 Den
+            sista siffran är lägenhetens ordning från vänster, i det här fallet
+            1  
+            <br />
+            <br />
+            <StyledDLLink
+              href="https://brfkakburken.se/tvattstugan.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              fontSize="1rem">
+              Bokningsregler & information om bokning via tavla
+              <BsDownload />
+            </StyledDLLink>
+            <StyledHr />
+            Aug 16, 2023
+            <br />
             Hej! Hoppas ni alla har haft en fin sommar.
             <br />
             Vi vill passa på att tacka er som deltog på föreningens årsstämma.

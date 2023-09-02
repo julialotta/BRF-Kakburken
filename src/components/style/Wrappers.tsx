@@ -32,6 +32,11 @@ export const FlexDiv = styled.div`
   }
 `;
 
+export const StyledHr = styled.hr`
+  margin-top: 25px;
+  border: 0.1px solid ${colors.DarkGreen};
+`;
+
 export const AppWrapper = styled.div`
   background-color: ${colors.White};
   margin: 0;
