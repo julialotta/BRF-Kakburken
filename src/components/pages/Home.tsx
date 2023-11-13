@@ -47,6 +47,44 @@ export const Home = () => {
           textAlign="start">
           <StyledH4>Nyheter</StyledH4>
           <StyledP fontSize="1.3rem">
+            {/*  */}
+            Nov, 2023
+            <br />
+            Information om höstmotet 8 nov 2023
+            <br />
+            Styrelsen bjöd in till höstmöte för att diskutera föreningens
+            nuvarande och framtida ekonomi. Brf Kakburken har en bra ekonomi med
+            låga lån och en kassa för underhåll och oförutsedda utgifter. Vad vi
+            ser nu ar att vi, precis som resten av världen, påverkas av ökade
+            kostnader framför allt för värme, vatten, och sophantering. I och
+            med det har vi beslutat oss för att genomföra en avgiftshöjning från
+            och med nästa år. Exakt vad den kommer att landa på är inte bestämt
+            ännu, utan kommer fastställas i samband med att nästa års budget är
+            lagd.
+            <br />
+            <br />
+            Under mötet presenterade vi vår nuvarande ekonomi och planerade
+            budget för nästa år. Det ses i den pdf som finns tillgänglig. Där
+            ses hur våra utgifter de senaste åren och prognosticerat för 2024 är
+            ökande och överstiger våra intäkter.
+            <br />
+            Styrelsen uppfattar att föreningens medlemmar är medvetna om de
+            ökade kostnaderna och att vi trots avgiftshöjning kan hålla
+            avgifterna konkurrenskraftiga i området. Styrelsen mottog även goda
+            förslag på andra förbättringsområden som kan påverka ekonomin
+            positivt. Vi tackar de medlemmar som kom på mötet.
+            <br />
+            <br />
+            <StyledDLLink
+              href="https://brfkakburken.se/brfkakburkenbudget2024.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              fontSize="1rem">
+              Budget och ekonomi 2024
+              <BsDownload />
+            </StyledDLLink>
+            <StyledHr />
+            {/*  */}
             Sep 1, 2023
             <br />
             Vid bokning av tvättid via webbsidan:

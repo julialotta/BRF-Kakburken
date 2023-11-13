@@ -24,6 +24,13 @@ export const Dokument = () => {
           <BsDownload />
         </StyledDLLink>
         <StyledDLLink
+          href="https://brfkakburken.se/Ordningsregler.pdf"
+          target="_blank"
+          rel="noopener noreferrer">
+          Ordningsregler
+          <BsDownload />
+        </StyledDLLink>
+        <StyledDLLink
           href="https://brfkakburken.se/Andrahandsuthyrning.pdf"
           target="_blank"
           rel="noopener noreferrer">
